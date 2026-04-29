@@ -1,6 +1,9 @@
 # cart-pole-control-lqr-vs-pid
 Cart-pole control with PID, LQR, and energy-based methods, including full-state feedback and performance comparison.
 
+A simulation video is linked below. Parameters- x=15m and theta = 180°
+https://github.com/user-attachments/assets/930ac133-6156-4fa4-b9ac-14e5b80df067
+
 ## Overview
 This project implements a nonlinear cart–pole system in Simscape Multibody and designs two controllers:
 - Full‑state feedback (LQR-style) — manually tuned on the real nonlinear plant
