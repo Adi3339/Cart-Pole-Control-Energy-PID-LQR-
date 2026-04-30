@@ -24,6 +24,36 @@ This project implements a nonlinear cart–pole system in Simscape Multibody and
 - PID exhibited larger amplitude and oscillations even after tuning
 
 ## Results
+### PID vs LQR (Initial Conditions: x = 4 m, θ = 15°)
+
+The performance of PID and LQR controllers was compared under identical initial conditions.  
+The results show a clear difference in stability and response characteristics.
+
+- The PID controller exhibits larger amplitude oscillations in cart position and slower convergence.
+- Even after tuning, PID shows noticeable steady-state oscillations.
+- In contrast, LQR achieves a smoother transition with significantly reduced oscillations.
+- For the pole angle, PID continues to oscillate around ±5°, whereas LQR converges cleanly to 0°.
+
+![PID vs LQR Comparison](results/lqr_vs_pid_comparison.png)
+
+---
+
+### Disturbance Rejection (LQR)
+
+The LQR controller was further evaluated under an external disturbance after the system was brought into the linear operating region.
+
+- A disturbance force of 200 N was applied between 9–10 seconds.
+- The controller maintained stability with minimal deviation.
+- The pole angle remained within ±5° during the disturbance.
+- The system quickly returned to equilibrium after the disturbance ended.
+
+![Disturbance Response](results/lqr_disturbance.png)
+
+---
+
+### Simulation Demo (PID)
+
+A simulation demonstrating the PID controller behavior is shown below:
 https://github.com/user-attachments/assets/616088e9-541c-4599-80bb-cdac608b7cf1
 
 ## Structure
