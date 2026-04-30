@@ -24,11 +24,7 @@ This project implements a nonlinear cart–pole system in Simscape Multibody and
 - PID exhibited larger amplitude and oscillations even after tuning
 
 ## Results
-- Successful swing‑up and stabilization
-- Manual K outperforms analytical LQR on the nonlinear plant
-- Comparison of system response under similar initial conditions:
- LQR: lower oscillation amplitude (~3m)
- PID: higher oscillations (~5–6m)
+https://github.com/user-attachments/assets/616088e9-541c-4599-80bb-cdac608b7cf1
 
 ## Structure
 - models/ -> Simulink and Simscape models for PID, LQR, and energy-based control  
