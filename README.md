@@ -34,7 +34,7 @@ The results show a clear difference in stability and response characteristics.
 - In contrast, LQR achieves a smoother transition with significantly reduced oscillations.
 - For the pole angle, PID continues to oscillate around ±5°, whereas LQR converges cleanly to 0°.
 
-![PID vs LQR Comparison](results/lqr_vs_pid_comparison.png)
+![PID vs LQR Comparison](results/pid_vs_lqr_fixed_initials.png)
 
 ---
 
@@ -47,7 +47,7 @@ The LQR controller was further evaluated under an external disturbance after the
 - The pole angle remained within ±5° during the disturbance.
 - The system quickly returned to equilibrium after the disturbance ended.
 
-![Disturbance Response](results/lqr_disturbance.png)
+![Disturbance Response](results/lqr_energy_disturbance.png)
 
 ---
 
