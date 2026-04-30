@@ -47,7 +47,7 @@ The LQR controller was further evaluated under an external disturbance after the
 - The pole angle remained within ±5° during the disturbance.
 - The system quickly returned to equilibrium after the disturbance ended.
 
-![Disturbance Response](results/lqr_energy_disturbance.png)
+![Disturbance Response](results/lqr_energy_disturbance_reaction.png)
 
 ---
 
