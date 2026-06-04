@@ -1,8 +1,8 @@
 # cart-pole-control-lqr-vs-pid
 Cart-pole control with PID, LQR, and energy-based methods, including full-state feedback and performance comparison.
 
-A simulation video of complete energy swing plus manual tuned LQR is linked below. 
-https://github.com/user-attachments/assets/930ac133-6156-4fa4-b9ac-14e5b80df067
+A simulation video of complete energy swing plus manual tuned LQR is linked below. <br>
+[Simulation Video](https://github.com/user-attachments/assets/930ac133-6156-4fa4-b9ac-14e5b80df067)
 
 ## Overview
 This project implements a nonlinear cart–pole system in Simscape Multibody and designs two controllers:
@@ -53,8 +53,8 @@ The LQR controller was further evaluated under an external disturbance after the
 
 ### Simulation Demo (PID)
 
-A simulation demonstrating the PID controller behavior is shown below:
-https://github.com/user-attachments/assets/616088e9-541c-4599-80bb-cdac608b7cf1
+A simulation video demonstrating the PID controller behavior is shown below: <br>
+[Click here](https://github.com/user-attachments/assets/616088e9-541c-4599-80bb-cdac608b7cf1)
 
 ## Structure
 - models/ -> Simulink and Simscape models for PID, LQR, and energy-based control  
